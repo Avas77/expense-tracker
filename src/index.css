@@ -1,0 +1,13 @@
+#root,
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/free-vector/mountain-lake-sunset-landscape-realistic-tree-forest-mountain-silhouettes-evening-wood-panorama-illustration-wild-nature-background_1150-39419.jpg?w=1060&t=st=1651412981~exp=1651413581~hmac=6e65ed3821d1e97e981443a2529f751662ce91a005f755af14aea93a3217f48d");
+  background-size: cover;
+  background-position: center;
+}
