@@ -23,13 +23,13 @@ const App = () => {
         justify="center"
         style={{ height: "100vh" }}
       >
-        <Grid xs={12} sm={4}>
+        <Grid xs={12} sm={4} className={classes.income}>
           <Details title="Income" />
         </Grid>
         <Grid xs={12} sm={3}>
           <Main />
         </Grid>
-        <Grid xs={12} sm={4}>
+        <Grid xs={12} sm={4} className={classes.expense}>
           <Details title="Expense" />
         </Grid>
       </Grid>
