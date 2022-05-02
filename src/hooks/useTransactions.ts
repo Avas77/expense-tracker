@@ -31,7 +31,7 @@ const useTransactions = (title: string) => {
   const filteredCategories = categories.filter(
     (category) => category.amount > 0
   );
-  console.log(filteredCategories.map((category) => category.type));
+
   const chartData = {
     datasets: [
       {
